@@ -2,21 +2,24 @@ div{
     background-color: bisque;
     width: 50%;
     height: 50%;
-    position: relative;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    display: grid;
+    
     font-family: Helvetica, sans-serif;
-}
-
-label{
-    margin-top: 5px;
-    margin-bottom: 0px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
 
 }
 
-input{
-    margin-top: 0px;
-    padi
+.dolares{
+    color: red; 
+    display: inline-flex;
 }
+
+#label_monto_caja, #label_monto_cliente{
+    margin-left: 5px;
+}
+
